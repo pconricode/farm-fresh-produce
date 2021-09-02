@@ -1,0 +1,169 @@
+
+
+.ffp-header img {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.ffp-produce {
+    display: grid;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.ffp-produce div {
+    align-self: start;
+}
+
+.ffp-produce p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    width: 75%;
+    margin: auto;
+}
+
+.ffp-produce h2 {
+    margin: 20px 0;
+    font-size: 2.75em;
+    font-weight: 100;
+}
+
+.ffp-produce img {
+    width: 25%;
+    height: auto;
+}
+
+.ffp-produce .corn h2 {
+    color: green;
+}
+
+.ffp-produce .peaches h2 {
+    color: #F3755C;
+}
+
+.ffp-produce .potatoes h2 {
+    color: #432B19;
+}
+
+.ffp-produce .pumpkins h2 {
+    color: #86422F;
+}
+
+.cal-social-txt {
+    display: block;
+    margin: 150px auto 0px;
+    text-align: center;
+    width: 40%;
+}
+
+.cal-social-txt h2 {
+    font-size: 2em;
+}
+
+.cal-social-txt p {
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.cr-social {
+    display: flex;
+    flex-direction: row;
+    margin: 75px auto 0px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.recipe-images {
+    display: flex;
+    flex-direction: row;
+    margin: 75px auto 0px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.recipe-images img {
+    width: 15%;
+    height: auto;
+}
+
+.ffp-cal-pickup img {
+    display: block;
+    margin: 75px auto 0px;
+    width: 80%;
+}
+
+.display-m {
+    display: none !important;
+}
+
+.ffp-button {
+    margin-top: 35px;
+    width: 275px;
+    height: 50px;
+    border: 0px;
+    font-size: 1.25em;
+}
+
+.in-stock:hover {
+    transform: scale(1.02);
+}
+
+.corn-btn {
+    color: white;
+    background-color: green;
+}
+
+.peaches-btn {
+    color: #F3755C;
+}
+
+.potatoes-btn {
+    color: #92857A;
+}
+
+.pumpkins-btn {
+    color: #9A6050;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .ffp-header img {
+        width: 90%;
+    }
+
+    .ffp-produce {
+        grid-template-columns: auto;
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .cal-social-txt {
+        width: 90%;
+    }
+
+    .cr-social {
+        gap: 10px;
+    }
+
+    .recipe-images {
+        gap: 15px;
+    }
+
+    .recipe-images img {
+        width: 20%;
+    }
+
+    .display-m {
+        display: block !important;
+    }
+
+    .display-d {
+        display: none !important;
+    }
+}
